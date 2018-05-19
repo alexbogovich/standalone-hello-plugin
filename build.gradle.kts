@@ -1,5 +1,4 @@
 plugins {
-    groovy
     `maven-publish`
     `java-gradle-plugin`
     `kotlin-dsl`
