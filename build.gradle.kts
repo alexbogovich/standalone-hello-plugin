@@ -14,8 +14,8 @@ repositories {
 gradlePlugin {
     (plugins) {
         "greetingPlugin" {
-            id = "com.github.alexbogovich.hello-plugin"
-            implementationClass = "com.github.alexbogovich.plugin.greeting.GreetingPlugin"
+            id = "$group.hello-plugin"
+            implementationClass = "$group.plugin.greeting.GreetingPlugin"
         }
     }
 }
